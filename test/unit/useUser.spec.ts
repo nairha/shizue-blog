@@ -31,7 +31,7 @@ const mockSite: UserSite = {
 
 const mockSocial: UserSocial = {
 	github: "https://github.com/nairha",
-	twitter: "https://x.com/nairha",
+	twitter: "https://x.com/nairhacan",
 	linkedin: "https://linkedin.com/in/nairha",
 };
 
@@ -96,7 +96,7 @@ describe("useUserSocial", () => {
 	it("returns social links", async () => {
 		const social = await useUserSocial();
 		expect(social.github).toBe("https://github.com/nairha");
-		expect(social.twitter).toBe("https://x.com/nairha");
+		expect(social.twitter).toBe("https://x.com/nairhacan");
 		expect(social.linkedin).toContain("linkedin.com");
 	});
 });

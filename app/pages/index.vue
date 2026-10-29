@@ -16,8 +16,8 @@ useSeoMeta({
     <SectionHeroSection />
     <SectionSkillsSection />
     <SectionFeaturedProjectsSection />
-    <SectionExperienceSection />
     <SectionLatestPostsSection />
+    <SectionExperienceSection />
     <SectionTestimonialsSection />
     <SectionFaqSection />
     <SectionContactSection />

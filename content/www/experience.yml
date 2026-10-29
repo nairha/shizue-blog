@@ -1,9 +1,9 @@
 items:
-  - role: "Frontend Engineer"
-    company: "Nuxt"
+  - role: "developer advocate"
+    company: "Vuxilabs by GG7 Team"
     location: "Remote"
-    period: "2024 — Present"
-    logo: "https://github.com/nuxt.png"
+    period: "2026 — Present"
+    logo: "https://github.com/vuxilabs.png"
     description: "Spearheading open-source developer tooling, starter templates, and CLI ecosystem for modern Nuxt applications."
     achievements:
       - "Designed high-performance SSG & SSR starters downloaded by thousands of developers worldwide."
@@ -11,14 +11,14 @@ items:
       - "Authored comprehensive documentation and guides on VitePress and Nuxt 4 best practices."
     skills: ["Nuxt 4", "Vue 3", "TypeScript", "Docker", "GitHub Actions", "Biome"]
 
-  - role: "Senior Frontend Developer"
+  - role: "Backend Engineer"
     company: "NLFTs ltd"
-    location: "Jakarta / Hybrid"
-    period: "2022 — 2024"
+    location: "Yogyakarta / Hybrid"
+    period: "2022 — 2026"
     logo: "https://github.com/nlfts.png"
     description: "Engineered high-concurrency web applications, microservices, and internal dashboards."
     achievements:
-      - "Reduced client load times by 45% using hybrid SSG/ISR caching with Nitro engine."
-      - "Implemented automated integration testing suite with Vitest and Playwright."
+      - "Reduced client load times by 45%."
+      - "Implemented automated integration testing and Playwright."
       - "Mentored 6 junior engineers and standardized frontend component library across 4 teams."
-    skills: ["Vue.js", "Node.js", "PostgreSQL", "Redis", "TailwindCSS", "Vitest"]
+    skills: ["NestJS", "TypeScript", "PostgreSQL", "Redis", "Rust", "Docker"]

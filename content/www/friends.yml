@@ -27,12 +27,30 @@ prTemplate: |
   - Tags: ["Tag1", "Tag2", "Tag3"]
 
 items:
+  - name: "davingm"
+    handle: "@davingm"
+    avatar: "https://github.com/davingm.png"
+    role: "Frontend Developer"
+    bio: "Passionate about creating intuitive and performant web applications with nuxt."
+    location: "Shenzhen, China"
+    siteUrl: "https://davingm.com"
+    githubUrl: "https://github.com/davingm"
+    tags: ["nuxt", "typescript", "tencent cloud", "vuejs", "Scss"]
   - name: "Nafis"
-    handle: "@Tokitakun"
+    handle: "@tokitakun"
     avatar: "https://github.com/Tokitakun.png"
     role: "Cloud Architect & SRE"
     bio: "Kubernetes specialist, Go enthusiast, and author of automated observability runbooks."
-    location: "Shenzhen, China"
+    location: "Nanjing, China"
     siteUrl: "https://tokita.nlfts.dev"
     githubUrl: "https://github.com/Tokitakun"
     tags: ["Kubernetes", "Go", "GCP", "Terraform"]
+  - name: "Silo"
+    handle: "@elainasann"
+    avatar: "https://github.com/elainasann.png"
+    role: "Full-Stack Developer"
+    bio: "Passionate about building scalable web applications with modern technologies."
+    location: "Hongkong, China"
+    siteUrl: "https://silokusuma.top"
+    githubUrl: "https://github.com/elainasann"
+    tags: ["nextjs", "react", "java", "kotlin", "tailwindcss"]

@@ -125,7 +125,7 @@ const shareUrl = computed(() => {
       </NuxtLink>
 
       <a
-        href="https://x.com/nairha"
+        href="https://x.com/nairhacan"
         target="_blank"
         rel="noopener noreferrer"
         class="inline-flex items-center gap-1 text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100"

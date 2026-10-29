@@ -20,7 +20,7 @@ export const usePortfolio = () => {
 		email: "nairha@nairha.com",
 		location: "Jakarta, ID (UTC+7)",
 		github: "https://github.com/nairha",
-		twitter: "https://x.com/nairha",
+		twitter: "https://x.com/nairhacan",
 		linkedin: "https://linkedin.com",
 		version: "4.0.0",
 	});

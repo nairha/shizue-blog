@@ -22,9 +22,6 @@ watch(() => route.fullPath, () => { mobileMenuOpen.value = false; });
         <span class="font-semibold tracking-tight text-sm sm:text-base">
           {{ site.brandName }}<span class="text-neutral-400 dark:text-neutral-500 font-normal">.{{ site.brandDomain }}</span>
         </span>
-        <UiBadge variant="subtle" size="sm" class="hidden sm:inline-flex text-[10px]">
-          v{{ site.version }}
-        </UiBadge>
       </NuxtLink>
 
       <nav class="hidden md:flex items-center gap-1">
