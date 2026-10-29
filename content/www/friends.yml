@@ -1,0 +1,38 @@
+seo:
+  title: "Friends & Developer Network"
+  description: "A curated blogroll and network of talented friends, builders, engineers, and open-source creators."
+
+heading: "Friends & Developer Network"
+subheading: "An open blogroll celebrating friends, mentors, and talented developers across the global ecosystem."
+
+joinButton: "Join the Network"
+
+modal:
+  title: "Join the Developer Network"
+  description: "Want to be listed on this blogroll? Submit a quick Pull Request or send your profile details using the format below:"
+  copyButton: "Copy Template"
+  copySuccess: "Copied Template!"
+  submitButton: "Submit via GitHub"
+
+visitWebsite: "Visit Website"
+
+prTemplate: |
+  - Name: Your Name
+  - Handle: @yourhandle
+  - Site: https://yourdomain.com
+  - Avatar: https://github.com/yourhandle.png
+  - Role: Your Role
+  - Bio: Short 1-2 sentence description
+  - Location: City, Country
+  - Tags: ["Tag1", "Tag2", "Tag3"]
+
+items:
+  - name: "Nafis"
+    handle: "@Tokitakun"
+    avatar: "https://github.com/Tokitakun.png"
+    role: "Cloud Architect & SRE"
+    bio: "Kubernetes specialist, Go enthusiast, and author of automated observability runbooks."
+    location: "Shenzhen, China"
+    siteUrl: "https://tokita.nlfts.dev"
+    githubUrl: "https://github.com/Tokitakun"
+    tags: ["Kubernetes", "Go", "GCP", "Terraform"]
