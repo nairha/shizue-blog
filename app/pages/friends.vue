@@ -85,7 +85,7 @@ const copyTemplate = async () => {
           <UiButton variant="outline" size="sm" :icon="copied ? 'lucide:check' : 'lucide:copy'" @click="copyTemplate">
             {{ copied ? data.modal.copySuccess : data.modal.copyButton }}
           </UiButton>
-          <UiButton href="https://github.com/nairha/nuxt-nairha/issues/new" variant="primary" size="sm" trailing-icon="lucide:arrow-up-right">
+          <UiButton href="https://github.com/nairha/shizue-blog/issues/new" variant="primary" size="sm" trailing-icon="lucide:arrow-up-right">
             {{ data.modal.submitButton }}
           </UiButton>
         </div>

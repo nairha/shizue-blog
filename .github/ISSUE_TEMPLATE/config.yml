@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: 💬 GitHub Discussions
-    url: https://github.com/nairha/nuxt-nairha/discussions
+    url: https://github.com/nairha/shizue-blog/discussions
     about: Gunakan GitHub Discussions untuk pertanyaan seputar penggunaan, bantuan, atau ide umum.
   - name: 📖 Nuxt Documentation
     url: https://nuxt.com/docs

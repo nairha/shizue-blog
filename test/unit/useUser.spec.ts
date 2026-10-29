@@ -22,7 +22,7 @@ const mockSite: UserSite = {
 	brandName: "nairha",
 	brandDomain: "dev",
 	version: "4.0",
-	cliRepoUrl: "https://github.com/nairha/nuxt-nairha",
+	cliRepoUrl: "https://github.com/nairha/shizue-blog",
 	seo: {
 		title: "nairha — Frontend Engineer & Nuxt Creator",
 		description: "Minimalist developer portfolio built with Nuxt 4.",
@@ -49,12 +49,12 @@ const mockExperience: UserExperience[] = [
 
 const mockProjects: UserProject[] = [
 	{
-		title: "nuxt-nairha CLI",
+		title: "shizue-blog CLI",
 		description: "CLI starter generator for Nuxt 4.",
 		tags: ["Nuxt 4", "TypeScript"],
 		stars: 342,
 		demoUrl: "https://nuxt.nairha.com",
-		githubUrl: "https://github.com/nairha/nuxt-nairha",
+		githubUrl: "https://github.com/nairha/shizue-blog",
 		status: "Open Source",
 	},
 ];
@@ -114,7 +114,7 @@ describe("useUserProjects", () => {
 	it("returns featured projects array", async () => {
 		const projects = await useUserProjects();
 		expect(projects).toHaveLength(1);
-		expect(projects[0].title).toBe("nuxt-nairha CLI");
+		expect(projects[0].title).toBe("shizue-blog CLI");
 		expect(projects[0].status).toBe("Open Source");
 	});
 });
