@@ -26,7 +26,7 @@ const copy = async () => {
 </script>
 
 <template>
-  <!-- Code box variant (e.g. npx nuxt-davingm@latest) -->
+  <!-- Code box variant (e.g. npx nuxt-nairha@latest) -->
   <div
     v-if="variant === 'code-box'"
     class="group inline-flex items-center gap-3 px-3.5 py-2 rounded-lg bg-neutral-100 dark:bg-[#1c1c1e] border border-neutral-200 dark:border-neutral-800 text-xs sm:text-sm font-mono text-neutral-800 dark:text-neutral-200 cursor-pointer hover:border-neutral-300 dark:hover:border-neutral-700 transition-colors"

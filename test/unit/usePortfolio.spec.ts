@@ -16,7 +16,7 @@ describe("usePortfolio (legacy title helper)", () => {
 		const { usePortfolio } = await import("../../app/composables/usePortfolio");
 		const { getFullTitle } = usePortfolio();
 
-		expect(getFullTitle("Projects")).toBe("Projects — Davin");
-		expect(getFullTitle()).toBe("Davin — Frontend Engineer & CLI Creator");
+		expect(getFullTitle("Projects")).toBe("Projects — nairha");
+		expect(getFullTitle()).toBe("nairha — Frontend Engineer & CLI Creator");
 	});
 });

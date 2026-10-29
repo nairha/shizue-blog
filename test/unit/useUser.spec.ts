@@ -8,37 +8,37 @@ import type {
 } from "../../app/composables/useUser";
 
 const mockProfile: UserProfile = {
-	name: "Davin",
-	handle: "@davingm",
+	name: "nairha",
+	handle: "@nairha",
 	role: "Frontend Engineer & Nuxt Creator",
 	bio: "Building minimalist web experiences.",
 	location: "Jakarta, ID (UTC+7)",
-	email: "davin@davingm.com",
+	email: "nairha@nairha.com",
 	avatar: "https://example.com/avatar.jpg",
 	availability: "Available for open source & freelance projects",
 };
 
 const mockSite: UserSite = {
-	brandName: "davin",
+	brandName: "nairha",
 	brandDomain: "dev",
 	version: "4.0",
-	cliRepoUrl: "https://github.com/nairha/nuxt-davingm",
+	cliRepoUrl: "https://github.com/nairha/nuxt-nairha",
 	seo: {
-		title: "Davin — Frontend Engineer & Nuxt Creator",
+		title: "nairha — Frontend Engineer & Nuxt Creator",
 		description: "Minimalist developer portfolio built with Nuxt 4.",
 	},
 };
 
 const mockSocial: UserSocial = {
 	github: "https://github.com/nairha",
-	twitter: "https://x.com/davingm",
-	linkedin: "https://linkedin.com/in/davingm",
+	twitter: "https://x.com/nairha",
+	linkedin: "https://linkedin.com/in/nairha",
 };
 
 const mockExperience: UserExperience[] = [
 	{
 		role: "Lead Frontend Engineer",
-		company: "Nuxt Davingm Ecosystem",
+		company: "Nuxt nairha Ecosystem",
 		location: "Remote",
 		period: "2024 — Present",
 		description: "Open-source developer tooling.",
@@ -49,12 +49,12 @@ const mockExperience: UserExperience[] = [
 
 const mockProjects: UserProject[] = [
 	{
-		title: "nuxt-davingm CLI",
+		title: "nuxt-nairha CLI",
 		description: "CLI starter generator for Nuxt 4.",
 		tags: ["Nuxt 4", "TypeScript"],
 		stars: 342,
-		demoUrl: "https://nuxt.davingm.com",
-		githubUrl: "https://github.com/nairha/nuxt-davingm",
+		demoUrl: "https://nuxt.nairha.com",
+		githubUrl: "https://github.com/nairha/nuxt-nairha",
 		status: "Open Source",
 	},
 ];
@@ -77,8 +77,8 @@ const { useUserProfile, useUserSite, useUserSocial, useUserExperience, useUserPr
 describe("useUserProfile", () => {
 	it("returns profile data", async () => {
 		const profile = await useUserProfile();
-		expect(profile.name).toBe("Davin");
-		expect(profile.email).toBe("davin@davingm.com");
+		expect(profile.name).toBe("nairha");
+		expect(profile.email).toBe("nairha@nairha.com");
 		expect(profile.location).toBe("Jakarta, ID (UTC+7)");
 	});
 });
@@ -86,9 +86,9 @@ describe("useUserProfile", () => {
 describe("useUserSite", () => {
 	it("returns site config", async () => {
 		const site = await useUserSite();
-		expect(site.brandName).toBe("davin");
+		expect(site.brandName).toBe("nairha");
 		expect(site.version).toBe("4.0");
-		expect(site.seo.title).toContain("Davin");
+		expect(site.seo.title).toContain("nairha");
 	});
 });
 
@@ -96,7 +96,7 @@ describe("useUserSocial", () => {
 	it("returns social links", async () => {
 		const social = await useUserSocial();
 		expect(social.github).toBe("https://github.com/nairha");
-		expect(social.twitter).toBe("https://x.com/davingm");
+		expect(social.twitter).toBe("https://x.com/nairha");
 		expect(social.linkedin).toContain("linkedin.com");
 	});
 });
@@ -114,7 +114,7 @@ describe("useUserProjects", () => {
 	it("returns featured projects array", async () => {
 		const projects = await useUserProjects();
 		expect(projects).toHaveLength(1);
-		expect(projects[0].title).toBe("nuxt-davingm CLI");
+		expect(projects[0].title).toBe("nuxt-nairha CLI");
 		expect(projects[0].status).toBe("Open Source");
 	});
 });

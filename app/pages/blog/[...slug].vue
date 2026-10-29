@@ -11,10 +11,10 @@ const { data: page } = await useAsyncData(`blog-${route.path}`, () => {
 // Dynamic SEO
 useSeoMeta({
 	title: computed(() =>
-		page.value?.title ? `${page.value.title} — Davin` : "Blog Article — Davin",
+		page.value?.title ? `${page.value.title} — nairha` : "Blog Article — nairha",
 	),
 	description: computed(
-		() => page.value?.description || "Technical article by Davin",
+		() => page.value?.description || "Technical article by nairha",
 	),
 	ogTitle: computed(() => page.value?.title),
 	ogDescription: computed(() => page.value?.description),
@@ -88,7 +88,7 @@ const shareUrl = computed(() => {
           />
           <div>
             <div class="font-medium text-neutral-900 dark:text-neutral-100">
-              {{ page?.author?.name || 'Davin' }}
+              {{ page?.author?.name || 'nairha' }}
             </div>
             <div class="text-[11px] text-neutral-400 font-mono">
               {{ page?.date }} · {{ page?.readTime || '5 min read' }}
@@ -125,7 +125,7 @@ const shareUrl = computed(() => {
       </NuxtLink>
 
       <a
-        href="https://x.com/davingm"
+        href="https://x.com/nairha"
         target="_blank"
         rel="noopener noreferrer"
         class="inline-flex items-center gap-1 text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100"

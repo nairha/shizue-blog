@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config > For Nuxt
-// https://nuxt.davingm.com/docs/api/configuration/nuxt-config > For Starter
+// https://nuxt.nairha.com/docs/api/configuration/nuxt-config > For Starter
 
 export default defineNuxtConfig({
 				compatibilityDate: "2025-07-15",

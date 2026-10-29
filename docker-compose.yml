@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: nuxt-davingm-portfolio
+    container_name: nuxt-nairha-portfolio
     restart: unless-stopped
     ports:
       - "3000:80"

@@ -13,14 +13,14 @@ export interface PortfolioConfig {
 
 export const usePortfolio = () => {
 	const config = ref<PortfolioConfig>({
-		name: "Davin",
-		handle: "@davingm",
+		name: "nairha",
+		handle: "@nairha",
 		role: "Frontend Engineer & CLI Creator",
 		bio: "Building minimalist web experiences, Nuxt tooling, and automated DevOps workflows.",
-		email: "davin@davingm.com",
+		email: "nairha@nairha.com",
 		location: "Jakarta, ID (UTC+7)",
 		github: "https://github.com/nairha",
-		twitter: "https://x.com/davingm",
+		twitter: "https://x.com/nairha",
 		linkedin: "https://linkedin.com",
 		version: "4.0.0",
 	});

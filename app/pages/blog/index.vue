@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useSeoMeta({
-	title: "Blog & Technical Articles — Davin",
+	title: "Blog & Technical Articles — nairha",
 	description:
 		"Articles on Nuxt 4, Frontend architecture, DevOps automation, and minimalist design systems.",
 });
